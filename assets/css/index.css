@@ -72,10 +72,6 @@
     height: 4px;
 }
 
-.navlink__search {
-    width: 60%;
-}
-
 .navlink__options {
     display: flex;
     position: relative;
