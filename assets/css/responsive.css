@@ -1,0 +1,138 @@
+@media (max-width: 1023px) {
+    .navlink__options {
+        margin: 0;
+    }
+
+    .header__navlink {
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 720px) and (max-width: 1023px) {
+    .box-content {
+        min-width: 100% !important;
+        margin: unset !important;
+    }
+
+    .container__slider {
+        display: none !important;
+    }
+
+    .sidebar {
+        max-width: unset;
+    }
+
+    .t-name {
+        text-align: center;
+    }
+}
+
+@media (max-width: 739px) {
+    .container {
+        margin: 110px auto 0;
+    }
+
+    .nav__link--popup {
+        inset: 100px 0 auto 0 !important;
+        max-width: 700px;
+    }
+
+    .nav__link--popupsingle {
+        inset: 100px 0 auto 0 !important;
+        max-width: unset !important;
+    }
+
+    .navlink__link--news {
+        display: none !important;
+    }
+
+    .c-4 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navlink__options {
+        width: calc(100% - 67px);
+        justify-content: center;
+    }
+
+    .sidebar {
+        margin: 0;
+    }
+
+    .box-content {
+        flex-direction: column;
+    }
+
+    .navlink__options--shop {
+        display: none;
+    }
+
+    .rotate_div img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sidebar__content--itemmusic {
+        width: unset;
+    }
+
+    .sidebar__content--top {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sidebar__content--bottom {
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .content__top--music {
+        height: 100%;
+    }
+
+    .content__top--mv {
+        display: flex;
+        justify-content: center;
+        width: unset;
+    }
+
+    .sidebar__content--level {
+        left: 0;
+    }
+
+    .sidebar__content--itemmv {
+        width: unset;
+    }
+
+    .footer_1 {
+        padding: 0 10px;
+    }
+
+    .logo_footer {
+        margin: unset !important;
+    }
+
+    .nav__link--popup {
+        width: 100%;
+    }
+
+    .navlink__link--select {
+        order: 2;
+    }
+
+    .navlink__options {
+        order: 1;
+    }
+
+    .header__navlink {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 1210px) {
+    .container__slider {
+        display: none !important;
+    }
+}
