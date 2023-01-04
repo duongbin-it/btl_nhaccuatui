@@ -4,7 +4,8 @@
     }
 
     .header__navlink {
-        justify-content: space-around;
+        width: 100% !important;
+        margin: unset !important;
     }
 }
 
@@ -28,6 +29,10 @@
 }
 
 @media (max-width: 739px) {
+    .navlink__link--img {
+        display: none;
+    }
+
     .container {
         margin: 110px auto 0;
     }
@@ -52,7 +57,6 @@
     }
 
     .navlink__options {
-        width: calc(100% - 67px);
         justify-content: center;
     }
 
@@ -129,11 +133,24 @@
 
     .header__navlink {
         flex-wrap: wrap;
+        padding-top: 10px;
     }
 }
 
 @media (max-width: 1210px) {
     .container__slider {
         display: none !important;
+    }
+}
+
+@media (max-width: 1239px) {
+    .navlink__link {
+        padding: 0 11px 0 0 !important;
+    }
+}
+
+@media (max-width: 983px) {
+    .navlink__link--select {
+        width: 90%;
     }
 }

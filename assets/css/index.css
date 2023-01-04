@@ -84,7 +84,6 @@
     height: 32px;
     border-radius: 4px;
     background-color: rgba(0, 0, 0, 0.05);
-    margin-right: 16px;
     padding-left: 32px;
     border: 0;
     outline: 0;
@@ -111,6 +110,7 @@
 
 .navlink__search {
     display: flex;
+    margin-right: 16px;
 }
 
 .navlink__options--shop {
@@ -1145,6 +1145,7 @@
 .navlink__link--img {
     order: 0;
     display: flex;
+    margin-right: 3px;
 }
 
 .navlink__link--select {
